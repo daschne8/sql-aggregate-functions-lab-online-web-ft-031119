@@ -1,10 +1,11 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
-  "SELECT gpa FROM students ORDER BY gpa DESC LIMIT 1;"# ORBER BY gpa DESC LIMIT 1;"
+  "SELECT gpa FROM students ORDER BY gpa DESC LIMIT 1;"
 end
 
 def lowest_student_gpa
+  "SELECT gps FROM students ORDER BY gpa LIMIT 1;"
 end
 
 def average_student_gpa
